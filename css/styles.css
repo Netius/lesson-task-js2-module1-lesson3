@@ -1,0 +1,29 @@
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+.books-container{
+    margin: .5em;
+    padding: .5em;
+    width: 300px;
+    border: solid salmon 2px;
+}
+
+.message{
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid grey;
+}
+
+.message.error{
+    border-color: red;
+    color: red;
+}
+
+.message.notfound{
+    border-color: salmon;
+    color: salmon;
+}
